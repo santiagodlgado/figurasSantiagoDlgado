@@ -11,9 +11,9 @@ class TestFiguras(unittest.TestCase):
 		resultado = self.figura.cuadrado(5)
 		self.assertEquals(25,resultado)
 
-	def test_area_cuadrado_lado_6(self):
-		resultado = self.figura.cuadrado(6)
-		self.assertEquals(36,resultado)
+	def test_area_cuadrado_lado_3(self):
+		resultado = self.figura.cuadrado(3)
+		self.assertEquals(9,resultado)
 
 	def test_area_cuadrado_lado_g(self):
 		resultado = self.figura.cuadrado('g')
